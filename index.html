@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Download Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+  <style>
+    .directory-tree {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 220px;
+      background-color: #f3f4f6;
+      border-radius: 8px;
+      padding: 10px;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    .directory-tree a {
+      color: #000;
+      text-decoration: none;
+    }
+    .directory-tree a:hover {
+      text-decoration: underline;
+    }
+    .app-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .app {
+      margin: 0 20px;
+      text-align: center;
+    }
+    .app img {
+      width: 120px;
+      height: 120px;
+      border-radius: 12px;
+    }
+    .app a {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .app a:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="directory-tree">
+    <p><a href="/">/</a></p>
+    <p>├── <a href="/">index.html</a></p>
+    <p>└── <a href="privacy-policy/">privacy-policy/</a></p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;└── <a href="privacy-policy/">index.html</a></p>
+  </div>
+
+  <div class="app-container">
+    <div class="app">
+      <img src="https://place-hold.it/120x120?text=iOS&fontsize=20" alt="iOS">
+      <a href="#" style="background-color: #007aff;">Download for iOS</a>
+    </div>
+    <div class="app">
+      <img src="https://place-hold.it/120x120?text=Android&fontsize=20" alt="Android">
+      <a href="#" style="background-color: #3ddc84;">Download for Android</a>
+    </div>
+  </div>
+
+  <script>
+    const apps = document.querySelectorAll('.app a');
+    setInterval(() => {
+      apps.forEach(app => {
+        app.style.transform = `translateY(${Math.random() * 10 - 5}px)`;
+      });
+    }, 200);
+  </script>
+</body>
+
+</html>
