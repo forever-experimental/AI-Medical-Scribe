@@ -1,0 +1,67 @@
+Privacy Policy (Alpha)
+
+Updated: 2024/02/18
+
+We at ForeverExperimental, Org. (“ForeverExperimental,” “we,” “us,” or “our”) have created this privacy policy (this “Privacy Policy”) because we know that you care about how information you provide to us is used and shared. This Privacy Policy relates to the information collection and use practices of ForeverExperimental in connection with our proprietary software as a service (SaaS) platform (the “Platform”) which is made available via a mobile application, and when you otherwise interact with us.
+
+I. Description of Users and Acceptance of Terms
+
+This Privacy Policy applies to users of the Platform (“Users”).
+
+By using the Platform, each User is agreeing to the terms of this Privacy Policy and the accompanying Platform Terms of Use.
+
+II. The Information We Collect and/or Receive
+
+In the course of operating the Platform, and/or interacting with you, we will collect and/or receive the following types of information. You authorize us to collect and/or receive such information.
+
+    Contact Information.
+
+When you contact us through email or by mail, when you call us, you will be asked to provide certain information, including but not limited to, your name, email address, phone number, company name, job title, and any other information you are contacting us about (collectively, the “Contact Information”). The Contact Information is used to provide the requested service or information.
+
+    Your Data.
+
+In using the Platform, you will provide us Your Data. We will use Your Data (other than any personal information contained therein) in accordance with our Platform Terms of Use. Any personal information contained in Your Data will be used in accordance with this Privacy Policy.
+
+III. How We Use and Share the Information
+
+We may use and share your personal information as set forth below:
+
+    To provide the Platform;
+    To solicit your feedback, inform you about our products and services;
+    To monitor, support, analyze, and improve the Platform;
+    To communicate with you regarding the Platform;
+    To fulfill your requests for information regarding new or improved products and services;
+    To engage in marketing, advertising, and tracking activities, and evaluate the efficacy of our efforts, provided that we will obtain your prior opt-in consent where required;
+    To third-party contractors and service providers that provide services to us in the operation of our business and assistance with the Platform, such as technical support for the Platform and providing services such as IT and cloud hosting, analytics services, marketing and order fulfillment, among others;
+    To fulfill our legal and regulatory requirements;
+    To comply with applicable law, such as to comply with a subpoena, or similar legal process;
+    To prevent, identify, investigate, and deter fraudulent, harmful, unauthorized, unethical, or illegal activity, including cyberattacks and identity theft; and
+    Otherwise, with your consent.
+
+IV. How We Protect the Information
+
+We take commercially reasonable security measures to ensure that your information is treated securely and in compliance with applicable laws and regulations. Unfortunately, no method of transmission over the Internet is completely secure, thus we cannot guarantee its absolute security.
+
+V. Children
+
+We do not knowingly collect personal information from children under the age of 18 through the Platform. If we become aware that a child under 18 has provided us with personal information, we will take steps to delete such information from our databases.
+
+VI. Changes to This Privacy Policy
+
+This Privacy Policy is effective as of the date stated at the top of this Privacy Policy. We may change this Privacy Policy from time to time. By using the Platform after we make any such changes to this Privacy Policy, you are deemed to have accepted such changes. Please refer back to this Privacy Policy on a regular basis.
+
+VII. Contact Us
+
+If you have any questions about this Privacy Policy or to report a privacy issue, please contact us at:
+
+Email: pr.forever.experimental@protonmail.com
+
+ForeverExperimental, Org.
+
+Privacy Policy
+
+Platform Terms of Use
+
+Our technology uses industry best practices and ensures data remains on your device.
+
+© 2024 ForeverExperimental ORG.
