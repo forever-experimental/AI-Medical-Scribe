@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+  <style>
+    body {
+      background-color: #f0f2f5;
+      background-image: url('https://www.transparenttextures.com/patterns/light-noise-diagonal.png');
+    }
+    .container {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    }
+    h1 {
+      color: #0366d6;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    p {
+      color: #4a5568;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <div id="policyText"></div>
+  </div>
+
+  <script>
+    fetch('privacy-policy.txt')
+      .then(response => response.text())
+      .then(text => {
+        document.getElementById('policyText').innerText = text;
+      })
+      .catch(error => console.log('Error loading the privacy policy:', error));
+  </script>
+</body>
+
+</html>
