@@ -16,6 +16,7 @@
       border-radius: 8px;
       padding: 10px;
       font-family: 'Courier New', Courier, monospace;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
     .directory-tree a {
       color: #000;
@@ -29,10 +30,23 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
+      background: linear-gradient(45deg, #ff416c, #ff4b2b, #ffcc00,
+        #33ff00, #2484C4, #0e13ff, #be0eff);
+      background-size: 400% 400%;
+      animation: Gradient 15s ease infinite;
+    }
+    @keyframes Gradient {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
     }
     .app {
       margin: 0 20px;
       text-align: center;
+      background-color: #ffffff;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
     .app img {
       width: 120px;
@@ -42,16 +56,18 @@
     .app a {
       display: inline-block;
       margin-top: 10px;
-      background-color: #4CAF50;
       color: white;
       padding: 10px 20px;
       border-radius: 20px;
       text-decoration: none;
       transition: background-color 0.3s;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     }
-    .app a:hover {
-      background-color: #45a049;
-    }
+    .app a.ios { background-color: #0e13ff; }
+    .app a.android { background-color: #ff4b2b; }
+    .app a.ios:hover { background-color: #0a0fcb; }
+    .app a.android:hover { background-color: #e04323; }
   </style>
 </head>
 
@@ -65,12 +81,12 @@
 
   <div class="app-container">
     <div class="app">
-      <img src="https://place-hold.it/120x120?text=iOS&fontsize=20" alt="iOS">
-      <a href="#" style="background-color: #007aff;">Download for iOS</a>
+      <img src="https://place-hold.it/120x120?text=iOS&fontsize=20&bold=true" alt="iOS">
+      <a href="#" class="ios">Download for iOS</a>
     </div>
     <div class="app">
-      <img src="https://place-hold.it/120x120?text=Android&fontsize=20" alt="Android">
-      <a href="#" style="background-color: #3ddc84;">Download for Android</a>
+      <img src="https://place-hold.it/120x120?text=Android&fontsize=20&bold=true" alt="Android">
+      <a href="#" class="android">Download for Android</a>
     </div>
   </div>
 
@@ -78,7 +94,7 @@
     const apps = document.querySelectorAll('.app a');
     setInterval(() => {
       apps.forEach(app => {
-        app.style.transform = `translateY(${Math.random() * 10 - 5}px)`;
+        app.style.transform = `translateY(${Math.random() * 10 - 5}px) rotate(${Math.random() * 20 - 10}deg)`;
       });
     }, 200);
   </script>
