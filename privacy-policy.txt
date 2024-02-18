@@ -42,7 +42,7 @@ We take commercially reasonable security measures to ensure that your informatio
 
 V. Children
 
-We do not knowingly collect personal information from children under the age of 18 through the Platform. If we become aware that a child under 18 has provided us with personal information, we will take steps to delete such information from our databases.
+We do not knowingly collect personal information from children under the age of 18 through the Platform.
 
 VI. Changes to This Privacy Policy
 
@@ -62,4 +62,4 @@ Platform Terms of Use
 
 Our technology uses industry best practices and ensures data remains on your device.
 
-© 2024 ForeverExperimental ORG.
+© 2024 ForeverExperimental Org.
